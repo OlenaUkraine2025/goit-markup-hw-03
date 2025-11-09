@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Webstudio for Your Business" />
     <!-- modern-normalize -->
-    <link rel="stylesheet" href="path/to/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- font-family "Raleway" "Roboto" -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,15 +18,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title class="title-logo">WebStudio</title>
+    <title class="title-logo">WEBSTUDIO</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="top-logo">
+      <div class="container header-container">
+        <nav class="nav">
           <a href="./index.html" class="top-logo"
-            >Web<span class="black">Studio</span></a
+            >WEB<span class="black">STUDIO</span></a
           >
           <ul class="nav-text">
             <li><a href="./index.html" class="nav-link">Studio</a></li>
@@ -52,7 +58,7 @@
       <!--#Section2-->
       <section class="main-property">
         <div class="container">
-          <h2 class="visually-hidden">невидимый заголовок</h2>
+          <h2 class="visually-hidden">невидимий заголовок</h2>
 
           <ul class="team-property">
             <li class="setting-property">
@@ -92,58 +98,51 @@
       <section class="main-property">
         <div class="container">
           <h2 class="main-team">Our Team</h2>
-          <ul>
-            <div class="team">
-              <li class="section-foto">
-                <img
-                  src="images/mark.jpg"
-                  alt="Mark Guerrero Product Designer"
-                  width="264"
-                  height="260"
-                />
-                <h3 class="property">Mark Guerrero</h3>
-                <p class="main-text">Product Designer</p>
-              </li>
-            </div>
-            <div class="team">
-              <li class="section-foto">
-                <img
-                  src="images/tom.jpg"
-                  alt="Tom Ford Frontend Developer"
-                  width="264"
-                  height="260"
-                />
-                <h3 class="property">Tom Ford</h3>
-                <p class="main-text">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="team">
-              <li class="section-foto">
-                <img
-                  src="images/camila.jpg"
-                  alt="Camila Garcia Marketing"
-                  width="264"
-                  height="260"
-                />
-                <h3 class="property">Camila Garcia</h3>
-                <p class="main-text">Marketing</p>
-              </li>
-            </div>
-            <div class="team">
-              <li class="section-foto">
-                <img
-                  src="images/daniel.jpg"
-                  alt="Daniel Wilson UI Designer"
-                  width="264"
-                  height="260"
-                />
-                <h3 class="property">Daniel Wilson</h3>
-                <p class="main-text">UI Designer</p>
-              </li>
-            </div>
+          <ul class="team">
+            <li class="section-foto">
+              <img
+                src="images/mark.jpg"
+                alt="Mark Guerrero Product Designer"
+                width="264"
+                height="260"
+              />
+              <h3 class="property">Mark Guerrero</h3>
+              <p class="main-text">Product Designer</p>
+            </li>
+            <li class="section-foto">
+              <img
+                src="images/tom.jpg"
+                alt="Tom Ford Frontend Developer"
+                width="264"
+                height="260"
+              />
+              <h3 class="property">Tom Ford</h3>
+              <p class="main-text">Frontend Developer</p>
+            </li>
+            <li class="section-foto">
+              <img
+                src="images/camila.jpg"
+                alt="Camila Garcia Marketing"
+                width="264"
+                height="260"
+              />
+              <h3 class="property">Camila Garcia</h3>
+              <p class="main-text">Marketing</p>
+            </li>
+            <li class="section-foto">
+              <img
+                src="images/daniel.jpg"
+                alt="Daniel Wilson UI Designer"
+                width="264"
+                height="260"
+              />
+              <h3 class="property">Daniel Wilson</h3>
+              <p class="main-text">UI Designer</p>
+            </li>
           </ul>
         </div>
       </section>
+
       <!-- #Section4 -->
       <section class="main-property">
         <div class="container">
@@ -157,8 +156,8 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Banking App</h3>
-              <p class="main-text">App</p>
+                <h3 class="property">Banking App</h3>
+                <p class="main-text">App</p>
               </div>
             </li>
             <li class="item">
@@ -169,11 +168,10 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Cashless Payment</h3>
-              <p class="main-text">Marketing</p>
+                <h3 class="property">Cashless Payment</h3>
+                <p class="main-text">Marketing</p>
+              </div>
             </li>
-            </div>
-
 
             <li class="item">
               <img
@@ -183,10 +181,11 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Meditation App</h3>
-              <p class="main-text">App</p>
+                <h3 class="property">Meditation App</h3>
+                <p class="main-text">App</p>
+              </div>
             </li>
-</div>
+
             <li class="item">
               <img
                 src="./images/card-row-4.jpg"
@@ -195,10 +194,11 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Taxi Service</h3>
-              <p class="main-text">Marketing</p>
+                <h3 class="property">Taxi Service</h3>
+                <p class="main-text">Marketing</p>
+              </div>
             </li>
-</div>
+
             <li class="item">
               <img
                 src="./images/card-row-5.jpg"
@@ -207,10 +207,11 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Screen Illustrations</h3>
-              <p class="main-text">Design</p>
+                <h3 class="property">Screen Illustrations</h3>
+                <p class="main-text">Design</p>
+              </div>
             </li>
-</div>
+
             <li class="item">
               <img
                 src="./images/card-row-6.jpg"
@@ -219,10 +220,10 @@
                 height="300"
               />
               <div class="name-property">
-              <h3 class="property">Online Courses</h3>
-              <p class="main-text">Marketing</p>
+                <h3 class="property">Online Courses</h3>
+                <p class="main-text">Marketing</p>
+              </div>
             </li>
-            </div>
           </ul>
         </div>
       </section>
