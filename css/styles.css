@@ -225,6 +225,7 @@ h2 {
 }
 .main-text {
   color: #434455;
+  text-align: center;
 }
 .main-team {
   line-height: 1.11;
@@ -235,6 +236,9 @@ h2 {
 .main-property {
   gap: 24px;
   width: calc((100% - 20px) / 3);
+}
+.main-property-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 .section-foto {
   background-color: #ffffff;
