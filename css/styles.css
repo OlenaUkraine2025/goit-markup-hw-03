@@ -262,18 +262,12 @@ p {
   letter-spacing: 0.02em;
 }
 .portfolio {
-  width: 1128px;
-  height: 888px;
-  flex-wrap: wrap;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 72px;
-  padding-left: 156px;
-  padding-right: 156px;
-  column-gap: 24px;
-  row-gap: 48px;
+  .portfolio {
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
 }
 
 .item {
