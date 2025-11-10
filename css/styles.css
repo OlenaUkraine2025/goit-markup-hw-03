@@ -261,7 +261,6 @@ p {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-.portfolio {
   .portfolio {
     flex-wrap: wrap;
     display: flex;
