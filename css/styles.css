@@ -14,12 +14,7 @@ ul {
   align-items: center;
 }
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .title-logo {
@@ -80,7 +75,6 @@ body {
 a {
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -172,11 +166,11 @@ h2 {
   padding: 120px 0;
 }
 .main-property {
-  display: flex;
   padding: 120px 0;
 }
 .team-property {
   gap: 24px;
+  text-align: center;
 }
 .property {
   font-size: 20px;
@@ -189,7 +183,6 @@ h2 {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 8px;
-  text-align: center;
 }
 .setting-property {
   align-items: flex-start;
@@ -214,20 +207,16 @@ h2 {
 
 .section-foto {
   background-color: #ffffff;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding-block: 0px 32px;
   padding-inline: 0px;
   width: 264px;
-  height: 380px;
 }
 .main-text {
   color: #434455;
-  text-align: center;
 }
 .main-team {
   line-height: 1.11;
@@ -235,24 +224,19 @@ h2 {
   letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
-.main-property {
+.main-property-team {
   gap: 24px;
-  width: calc((100% - 20px) / 3);
+  background-color: #f4f4fd;
+  height: 732px;
+  align-items: center;
 }
 .main-property-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.section-foto {
-  background-color: #ffffff;
-  margin: 24px;
-}
+
 .team {
-  padding: 32px 0;
   gap: 24px;
-}
-.team-property {
-  padding: 32px 0;
 }
 p {
   color: #434455;
@@ -261,12 +245,11 @@ p {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-  .portfolio {
-    flex-wrap: wrap;
-    display: flex;
-    column-gap: 24px;
-    row-gap: 48px;
-  }
+.portfolio {
+  flex-wrap: wrap;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .item {
@@ -276,7 +259,6 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .footer-logo {
